@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прямокутники</title>
+    <style>
+        .squar_100_300 {
+            width: 300px; /* Ширина квадрата */
+            height: 100px; /* Висота квадрата */
+            background-color: pink; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 0; /* Положення зверху */
+            left: 0; /* Положення зліва */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+
+        .squar_500_300 {
+            width: 500px; /* Ширина квадрата */
+            height: 100px; /* Висота квадрата */
+            background-color: pink; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 0; /* Положення зверху */
+            left: 300px; /* Положення справа */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+
+        .squar_300_300 {
+            width: 300px; /* Ширина квадрата */
+            height: 300px; /* Висота квадрата */
+            background-color: pink; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 100px; /* Положення знизу */
+            left: 0; /* Положення зліва */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+
+        .squar_300_500 {
+            width: 500px; /* Ширина квадрата */
+            height: 300px; /* Висота квадрата */
+            background-color: pink; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 100px; /* Положення знизу */
+            left: 300px; /* Положення справа */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+
+        .squar_400_150 {
+            width: 400px; /* Ширина квадрата */
+            height: 150px; /* Висота квадрата */
+            background-color: yellow; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 250px; /* Положення знизу */
+            left: 550px; /* Положення справа */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+            transform: translate(-50%, -50%); /* Центруємо квадрат за допомогою зміщення */
+            z-index: 1; /* Поверх інших елементів */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="squar_100_300"></div>
+    <div class="squar_500_300"></div>
+    <div class="squar_300_300"></div>
+    <div class="squar_300_500"></div>
+    <div class="squar_400_150"></div>
+</body>
+</html>

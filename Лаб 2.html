@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прямокутники</title>
+    <style>
+        html, body {
+            height: 100%; /* Встановлення висоти вікна віджета HTML і вікна сторінки на 100% */
+            margin: 0; /* Відсутність зовнішніх відступів від країв */
+            padding: 0; /* Відсутність внутрішніх відступів */
+        }
+        .square {
+            width: 35%; /* Ширина квадрата */
+            height: 35%; /* Висота квадрата */
+            background-color: white; /* Колір фону квадрата */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 50%; /* Положення по вертикалі в центрі */
+            left: 50%; /* Положення по горизонталі в центрі */
+            transform: translate(-50%, -50%); /* Центрування відносно центру */
+            z-index: 1; /* Вище інших елементів */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+        .pink {
+            background-color: pink; /* Рожевий колір фону */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 0; /* Положення зверху */
+            right: 0; /* Положення справа */
+            width: 50%; /* Ширина - 50% від батьківського контейнера */
+            height: 50%; /* Висота - 50% від батьківського контейнера */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+        .yellow {
+            background-color: yellow; /* Жовтий колір фону */
+            position: absolute; /* Абсолютне позиціонування */
+            top: 0; /* Положення зверху */
+            left: 0; /* Положення зліва */
+            width: 50%; /* Ширина - 50% від батьківського контейнера */
+            height: 50%; /* Висота - 50% від батьківського контейнера */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+        .red {
+            background-color: red; /* Червоний колір фону */
+            position: absolute; /* Абсолютне позиціонування */
+            bottom: 0; /* Положення знизу */
+            right: 0; /* Положення справа */
+            width: 50%; /* Ширина - 50% від батьківського контейнера */
+            height: 50%; /* Висота - 50% від батьківського контейнера */
+            border: 2px solid gray; /* Сіра межа навколо квадрата */
+        }
+        .orange {
+            background-color: orange; /* Оранжевий колір фону */
+            position: absolute; /* Абсолютне позиціонування */
+            bottom: 0; /* Положення знизу */
+            left: 0; /* Положення зліва */
+            width: 50%; /* Ширина - 50% від батьківського контейнера */
+            height: 50%; /* Висота - 50%
+            border: 2px solid gray;/* Сіра межа навколо квадрата */
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+    <div class="pink"></div>
+    <div class="yellow"></div>
+    <div class="red"></div>
+    <div class="orange"></div>
+</body>
+</html>
+
